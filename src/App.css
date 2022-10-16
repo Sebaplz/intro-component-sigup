@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: hsl(0, 100%, 74%) url("./assets/images/bg-intro-mobile.png")
+    no-repeat center;
+}
+
+.card-top {
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0 5px 0px 0px hsl(0, 47%, 55%);
+}
+
+.card-bottom {
+  box-shadow: 0 5px 0px 0px hsl(0, 47%, 55%);
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+.errors-message {
+  color: hsl(0, 100%, 74%);
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+  text-align: end;
+  font-style: italic;
+}
+
+.btn {
+  background-color: hsl(154, 59%, 51%) !important;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: hsl(154, 70%, 70%) !important;
+}
+
+@media (min-width: 480px) {
+  body {
+    background: hsl(0, 100%, 74%) url("./assets/images/bg-intro-desktop.png");
+  }
+}
